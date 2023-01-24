@@ -1,0 +1,35 @@
+1. used super slides from git hub
+
+2. used typed js for moving and displaying student ,ml, ad.
+
+3. used icons8 for icons
+
+4. used jquery google cdn
+
+5. used pexels site for images(free)
+
+6. flat ui colors for amazing palettes
+
+7. bootstrap owl carousel from github
+
+8. easy pie chart from github
+
+9.  var skillsTopOffset = $(".skillsSection").offset().top;
+    console.log(skillsTopOffset)
+
+The above line will show what is distance of skillsSection from top of screen
+
+10. window.pageYOffset --- where the scroll position is
+
+(window.pageYOffset > skillsTopOffset - $(window).height() + 200)
+
+$(window).height() ---- height of window
+200 --- delay of 200 pixel
+
+11. finally font awesome use kar hi liya
+
+12. countUp.js
+
+13. https://isotope.metafizzy.co/       --- for filtering and sorting
+
+14. fancyBox for dogs images to pop up nd remain in the same page
