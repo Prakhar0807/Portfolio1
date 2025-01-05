@@ -7,7 +7,7 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typed", {
-    strings: ["Alumni of BIT MESRA", "Flutter Developer", "Full Stack Developer", "Swimmer"],
+    strings: ["Currently pursuing MSc in Computer Science in UCD Dublin","Alumni of BIT MESRA", "Software Engineer", "Ex-Vodafone employee"],
     typeSpeed: 70,
     loop: true,
     startDelay: 1000,
