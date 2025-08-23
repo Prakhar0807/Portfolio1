@@ -104,4 +104,30 @@ $(document).ready(function () {
       body.removeClass("fixedNav");
     }
   }
+
+  function updateDateTime() {
+  const now = new Date();
+
+  // Get weekday separately so we can control the comma
+  const weekday = now.toLocaleDateString("en-GB", { weekday: "long" });
+  const dateRest = now.toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+
+  const timePart = now.toLocaleTimeString("en-GB", {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit", // include seconds
+    hour12: false      // 24-hour format (set true for AM/PM)
+  });
+
+  document.getElementById("datetime").textContent = 
+    `${weekday}, ${dateRest}, ${timePart}`;
+}
+
+updateDateTime();
+setInterval(updateDateTime, 1000); // update every second
+
 });
